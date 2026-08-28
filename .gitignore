@@ -1,0 +1,43 @@
+# Environment and secrets
+/.env
+/.env.*
+!/.env.example
+/auth.json
+
+# PHP dependencies and test cache
+/vendor
+/.phpunit.cache
+/.phpunit.result.cache
+
+# JavaScript dependencies and builds
+/node_modules
+/public/build
+/public/hot
+npm-debug.log
+yarn-error.log
+
+# Laravel-generated files
+/public/storage
+/storage/*.key
+/storage/logs/*
+!/storage/logs/.gitignore
+/bootstrap/cache/*.php
+/bootstrap/cache/*.tmp
+
+# MySQL database exports
+*.sql
+*.sql.gz
+*.dump
+
+# IDE configuration
+/.fleet
+/.idea
+/.vscode
+
+# Laravel/Homestead
+Homestead.json
+Homestead.yaml
+
+# Operating-system files
+.DS_Store
+Thumbs.db
